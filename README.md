@@ -8,14 +8,16 @@ shipping visionOS 26 apps for Apple Vision Pro. It supports both **Codex** and
 
 ```
 plugins/build-visionos-apps/
-├── codex/          ← Original Codex plugin (unchanged)
-└── claude/         ← Claude Code plugin (new)
+├── shared/         ← Platform skills used by both flavours (14 skills)
+├── codex/          ← Codex-specific orchestration (3 skills, commands, scripts)
+└── claude/         ← Claude Code workflows (5 skills, agents, commands, hooks)
 ```
 
-Each flavour is self-contained with its own skills, commands, agents, and
-configuration. The platform knowledge (RealityKit, ARKit, spatial SwiftUI,
-SharePlay, USD, Shader Graph, signing, immersive media) is shared across both;
-the Claude Code flavour adds engineering workflow skills and agent personas.
+Platform knowledge (RealityKit, ARKit, spatial SwiftUI, SharePlay, USD, Shader
+Graph, signing, immersive media, coding standards, packaging, SwiftPM, test
+triage, WidgetKit) lives in `shared/` and is referenced by both flavours. Each
+flavour adds its own orchestration skills, commands, and runtime-specific
+configuration.
 
 ## What The Plugin Does
 
@@ -110,19 +112,24 @@ Codex plugins directory. Target a custom location with:
 - Use the command layer: `/build-and-run-visionos-app`,
   `/fix-visionos-capability-error`, or `/test-visionos-app`
 
-## Platform Skills (Both Flavours)
+## Shared Platform Skills (`shared/skills/`)
 
-Both Codex and Claude Code flavours include these platform skills:
+These 14 skills live in `shared/` and are referenced by both flavours:
 
-- **Spatial App Architecture** - scene model, surface selection, state ownership
-- **RealityKit** - entities, components, systems, render loop
-- **ARKit** - sessions, providers, anchors, tracked world
-- **SharePlay** - group activities, shared immersive presence
-- **Shader Graph** - materials authoring and debugging
-- **USD** - asset editing, validation, runtime loading
-- **Signing and Entitlements** - signing, entitlements, privacy keys
-- **Immersive Media** - spatial video, immersive playback
-- **Spatial SwiftUI** - spatial views, scene types, visionOS modifiers
+- **spatial-architecture** - scene model, surface selection, state ownership
+- **realitykit** - entities, components, systems, render loop
+- **arkit** - sessions, providers, anchors, tracked world
+- **shareplay** - group activities, shared immersive presence
+- **shader-graph** - materials authoring and debugging
+- **usd** - asset editing, validation, runtime loading
+- **signing-entitlements** - signing, entitlements, privacy keys
+- **immersive-media** - spatial video, immersive playback
+- **swiftui-spatial** - spatial views, scene types, visionOS modifiers
+- **coding-standards** - Swift 6 concurrency, actor isolation, @Observable
+- **packaging-distribution** - archive, TestFlight, App Store submission
+- **swiftpm-visionos** - Swift Package Manager, Reality Composer Pro
+- **test-triage** - XCTest and Swift Testing failure classification
+- **widgetkit** - visionOS WidgetKit spatial UI, mounting, animations
 
 ## Optional External Tools
 

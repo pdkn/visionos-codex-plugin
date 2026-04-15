@@ -26,8 +26,7 @@ $ARGUMENTS - Optional: scheme name, workspace path, or mode (run/debug/logs)
    - Launch or log capture for runtime-focused tasks
 
 5. Route follow-up failures to the right skill
-   - Use skills/build-run-debug for full XcodeBuildMCP workflow
-   - Use skills/signing-entitlements for privacy, capability, and signing failures
+   - Use shared/skills/signing-entitlements for privacy, capability, and signing failures
    - Use skills/debugging-triage for runtime issues
 
 ## Guardrails

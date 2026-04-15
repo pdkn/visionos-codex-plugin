@@ -12,7 +12,7 @@ If XcodeBuildMCP is not available, fall back to direct `xcodebuild` and `simctl`
 
 ## Skill Map
 
-### Platform Skills (what to build)
+### Platform Skills (in `../shared/skills/`, shared with Codex)
 
 - **spatial-architecture** - scene model decisions, app structure, state ownership
 - **realitykit** - entities, components, systems, render loop
@@ -23,8 +23,13 @@ If XcodeBuildMCP is not available, fall back to direct `xcodebuild` and `simctl`
 - **signing-entitlements** - signing, entitlements, privacy keys, provisioning
 - **immersive-media** - immersive video, spatial video, playback
 - **swiftui-spatial** - spatial SwiftUI views, scene types, visionOS modifiers
+- **coding-standards** - Swift 6 concurrency, actor isolation, @Observable patterns
+- **packaging-distribution** - archive, TestFlight, App Store submission
+- **swiftpm-visionos** - Swift Package Manager and Reality Composer Pro
+- **test-triage** - XCTest and Swift Testing failure classification
+- **widgetkit** - visionOS WidgetKit spatial UI, mounting, animations
 
-### Engineering Workflow Skills (how to build)
+### Engineering Workflow Skills (in `skills/`, claude-local)
 
 - **spec-driven-spatial** - write a spec before writing code, gate on scene model decision
 - **incremental-build** - thin vertical slices, one component/system at a time

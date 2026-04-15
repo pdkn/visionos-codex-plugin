@@ -34,9 +34,9 @@ shape clearly requires something else.
 4. Tie failures back to the right skill when needed.
    - Use `../skills/build-run-debug/SKILL.md` if the failure is really a build
      or launch problem.
-   - Use `../skills/signing-entitlements/SKILL.md` if the test points to a
+   - Use `../../shared/skills/signing-entitlements/SKILL.md` if the test points to a
      privacy or capability issue.
-   - Use `../skills/test-triage/SKILL.md` for the deeper triage workflow,
+   - Use `../../shared/skills/test-triage/SKILL.md` for the deeper triage workflow,
      including Swift Testing (`@Test` / `#expect`) targets.
    - Use `../skills/visionos-ui-automation/SKILL.md` when post-launch
      evidence — screenshots, video, accessibility trees, keyboard-driven

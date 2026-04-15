@@ -41,4 +41,4 @@ $ARGUMENTS - Optional: app name, target environment (testflight/appstore), or sp
 - [ ] Archive builds successfully
 
 Invoke the xcode-build-agent for any build or signing issues found.
-Refer to skills/signing-entitlements for entitlement resolution.
+Refer to shared/skills/signing-entitlements for entitlement resolution.

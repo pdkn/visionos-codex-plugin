@@ -27,7 +27,7 @@ $ARGUMENTS - Optional: path to .app bundle, signing identity hint, or mode (insp
 4. Give the smallest fix or validation sequence
    - State what is wrong in plain language
    - Show the shortest useful command or project setting change
-   - Refer to skills/signing-entitlements for deeper investigation
+   - Refer to shared/skills/signing-entitlements for deeper investigation
 
 ## Guardrails
 

@@ -108,9 +108,10 @@ with this shape:
     Codex app Run button works even when XcodeBuildMCP is unavailable
 
 - `skills/`
-  - the actual skill payload
-  - each skill keeps the standard skill structure (`SKILL.md`, optional
-    `references/`, `samples/`, `scripts/`)
+  - codex-specific workflow skills (`build-run-debug`, `telemetry`,
+    `visionos-ui-automation`)
+  - platform skills live in `../shared/skills/` and are referenced by both
+    the Codex and Claude Code flavours
 
 ## Optional External CLIs
 
@@ -148,13 +149,11 @@ AXe and `asc` sit on top of that as optional, external CLIs for
 post-launch simulator automation and App Store Connect workflows
 respectively.
 
-The shared core skill layer (`spatial-app-architecture`,
-`spatial-swiftui-developer`, `realitykit-visionos-developer`,
-`arkit-visionos-developer`, `shareplay-developer`,
-`visionos-immersive-media-developer`, `visionos-widgetkit-developer`,
-`shadergraph-editor`, `usd-editor`, `coding-standards-enforcer`) carries the
-visionOS-specific architecture and implementation guidance. The plugin-local
-workflow skills (`build-run-debug`, `test-triage`, `signing-entitlements`,
-`swiftpm-visionos`, `packaging-distribution`, `telemetry`,
-`visionos-ui-automation`) mirror the shape of `build-macos-apps` with
-visionOS-specific adjustments.
+The shared platform skills now live in `../shared/skills/` and are used by
+both the Codex and Claude Code flavours. These include spatial architecture,
+RealityKit, ARKit, SharePlay, immersive media, spatial SwiftUI, Shader Graph,
+USD, signing/entitlements, coding standards, packaging/distribution,
+SwiftPM, test triage, and WidgetKit. The codex-local workflow skills
+(`build-run-debug`, `telemetry`, `visionos-ui-automation`) remain in
+`skills/` and mirror the shape of `build-macos-apps` with visionOS-specific
+adjustments.

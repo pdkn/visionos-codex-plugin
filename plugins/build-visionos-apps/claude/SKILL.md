@@ -15,15 +15,20 @@ This plugin provides skills, agents, and commands for building visionOS 26 appli
 
 | Skill | Use When |
 |-------|----------|
-| [spatial-architecture](skills/spatial-architecture/SKILL.md) | Choosing window vs volume vs immersive space, defining scene boundaries, state ownership |
-| [realitykit](skills/realitykit/SKILL.md) | Working with entities, components, systems, render loop, and RealityKit runtime |
-| [arkit](skills/arkit/SKILL.md) | Configuring ARKit sessions, providers, anchors, and tracked-world behaviour |
-| [shareplay](skills/shareplay/SKILL.md) | Implementing group activities, shared immersive presence, spatial coordination |
-| [shader-graph](skills/shader-graph/SKILL.md) | Authoring and debugging Shader Graph materials for RealityKit |
-| [usd](skills/usd/SKILL.md) | Editing, validating, and loading USD assets for visionOS |
-| [signing-entitlements](skills/signing-entitlements/SKILL.md) | Resolving signing, entitlement, privacy key, and provisioning issues |
-| [immersive-media](skills/immersive-media/SKILL.md) | Building immersive media playback, spatial video, and viewing experiences |
-| [swiftui-spatial](skills/swiftui-spatial/SKILL.md) | Implementing spatial SwiftUI views, scene types, and visionOS-specific modifiers |
+| [spatial-architecture](../shared/skills/spatial-architecture/SKILL.md) | Choosing window vs volume vs immersive space, defining scene boundaries, state ownership |
+| [realitykit](../shared/skills/realitykit/SKILL.md) | Working with entities, components, systems, render loop, and RealityKit runtime |
+| [arkit](../shared/skills/arkit/SKILL.md) | Configuring ARKit sessions, providers, anchors, and tracked-world behaviour |
+| [shareplay](../shared/skills/shareplay/SKILL.md) | Implementing group activities, shared immersive presence, spatial coordination |
+| [shader-graph](../shared/skills/shader-graph/SKILL.md) | Authoring and debugging Shader Graph materials for RealityKit |
+| [usd](../shared/skills/usd/SKILL.md) | Editing, validating, and loading USD assets for visionOS |
+| [signing-entitlements](../shared/skills/signing-entitlements/SKILL.md) | Resolving signing, entitlement, privacy key, and provisioning issues |
+| [immersive-media](../shared/skills/immersive-media/SKILL.md) | Building immersive media playback, spatial video, and viewing experiences |
+| [swiftui-spatial](../shared/skills/swiftui-spatial/SKILL.md) | Implementing spatial SwiftUI views, scene types, and visionOS-specific modifiers |
+| [coding-standards](../shared/skills/coding-standards/SKILL.md) | Swift 6 concurrency, actor isolation, @Observable patterns |
+| [packaging-distribution](../shared/skills/packaging-distribution/SKILL.md) | Archive, TestFlight, App Store submission workflows |
+| [swiftpm-visionos](../shared/skills/swiftpm-visionos/SKILL.md) | Swift Package Manager and Reality Composer Pro integration |
+| [test-triage](../shared/skills/test-triage/SKILL.md) | XCTest and Swift Testing failure classification |
+| [widgetkit](../shared/skills/widgetkit/SKILL.md) | visionOS WidgetKit spatial UI, mounting, animations |
 
 ### Engineering Workflow Skills
 

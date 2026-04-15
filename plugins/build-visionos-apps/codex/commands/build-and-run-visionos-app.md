@@ -45,9 +45,9 @@ persistent Run button or the MCP cannot complete the workflow.
 6. Route follow-up failures to the right skill.
    - Use `../skills/build-run-debug/SKILL.md` for the full XcodeBuildMCP
      workflow, LLDB attach, log capture, and simulator debugging.
-   - Use `../skills/signing-entitlements/SKILL.md` for privacy, capability, and
+   - Use `../../shared/skills/signing-entitlements/SKILL.md` for privacy, capability, and
      signing failures.
-   - Use `../skills/test-triage/SKILL.md` if the user is really asking about a
+   - Use `../../shared/skills/test-triage/SKILL.md` if the user is really asking about a
      failing test or a launch-time regression.
 
 ## Guardrails

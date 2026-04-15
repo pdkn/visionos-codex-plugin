@@ -39,4 +39,4 @@ Senior spatial design reviewer for visionOS applications.
 
 - Apple visionOS Human Interface Guidelines
 - WWDC spatial design sessions
-- `skills/spatial-architecture/SKILL.md` for detailed architecture guidance
+- `shared/skills/spatial-architecture/SKILL.md` for detailed architecture guidance

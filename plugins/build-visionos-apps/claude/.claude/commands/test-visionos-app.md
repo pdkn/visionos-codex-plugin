@@ -27,7 +27,7 @@ $ARGUMENTS - Optional: scheme name, test target, filter expression, or configura
 
 4. Route to the right skill when needed
    - skills/debugging-triage for systematic root-cause analysis
-   - skills/signing-entitlements for privacy or capability issues
+   - shared/skills/signing-entitlements for privacy or capability issues
 
 5. Summarize the narrowest next step
    - Prefer a focused rerun over a full suite rerun

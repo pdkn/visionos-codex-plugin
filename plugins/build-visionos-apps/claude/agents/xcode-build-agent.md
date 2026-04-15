@@ -49,6 +49,6 @@ Always feed build logs back into the session before suggesting fixes. Never gues
 
 ## References
 
-- `skills/signing-entitlements/SKILL.md` for signing and entitlement issues
-- `skills/debugging-triage/SKILL.md` for systematic triage
+- `shared/skills/signing-entitlements/SKILL.md` for signing and entitlement issues
+- `skills/debugging-triage/SKILL.md` for systematic triage (claude-local)
 - XcodeBuildMCP documentation for available MCP commands

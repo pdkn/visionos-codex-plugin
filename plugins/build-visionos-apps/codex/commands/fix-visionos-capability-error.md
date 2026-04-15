@@ -34,7 +34,7 @@ differences.
 4. Give the smallest fix or validation sequence.
    - State what is wrong in plain language.
    - Show the shortest useful command or project setting change.
-   - Prefer `../skills/signing-entitlements/SKILL.md` when a deeper read is
+   - Prefer `../../shared/skills/signing-entitlements/SKILL.md` when a deeper read is
      needed.
 
 ## Guardrails

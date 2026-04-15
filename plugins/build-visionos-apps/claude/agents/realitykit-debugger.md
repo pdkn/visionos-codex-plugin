@@ -46,6 +46,6 @@ Always follow this order:
 
 ## References
 
-- `skills/realitykit/SKILL.md` for component and system patterns
-- `skills/arkit/SKILL.md` for provider and session debugging
-- `skills/debugging-triage/SKILL.md` for the full triage workflow
+- `shared/skills/realitykit/SKILL.md` for component and system patterns
+- `shared/skills/arkit/SKILL.md` for provider and session debugging
+- `skills/debugging-triage/SKILL.md` for the full triage workflow (claude-local)
