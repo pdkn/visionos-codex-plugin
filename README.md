@@ -36,12 +36,16 @@ configuration.
 
 ## Claude Code Installation
 
+For local development and testing:
+
 ```bash
-claude plugin install build-visionos-apps
+claude --plugin-dir ./plugins/build-visionos-apps/claude
 ```
 
+Use `/reload-plugins` inside a session to pick up changes without restarting.
+
 The plugin registers XcodeBuildMCP as an MCP server automatically via
-`marketplace.json`.
+`.mcp.json`.
 
 ### Claude Code Features
 

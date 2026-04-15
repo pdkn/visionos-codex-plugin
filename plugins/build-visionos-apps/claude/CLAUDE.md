@@ -6,7 +6,7 @@ This plugin equips Claude Code with the skills, agents, and commands needed to b
 
 ## XcodeBuildMCP Setup
 
-The plugin depends on XcodeBuildMCP for build, run, and debug workflows. It is declared in `marketplace.json` and activated automatically when the plugin is installed via `claude plugin install build-visionos-apps`.
+The plugin depends on XcodeBuildMCP for build, run, and debug workflows. It is declared in `.mcp.json` and activated automatically when the plugin is loaded.
 
 If XcodeBuildMCP is not available, fall back to direct `xcodebuild` and `simctl` shell commands.
 

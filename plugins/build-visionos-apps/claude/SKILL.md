@@ -73,7 +73,7 @@ This plugin provides skills, agents, and commands for building visionOS 26 appli
 
 ## XcodeBuildMCP Dependency
 
-This plugin requires XcodeBuildMCP for build, run, and debug workflows. It is declared in `marketplace.json` and will be available as an MCP server when the plugin is installed.
+This plugin requires XcodeBuildMCP for build, run, and debug workflows. It is declared in `.mcp.json` and will be available as an MCP server when the plugin is loaded.
 
 ## visionOS 26 Notes
 
