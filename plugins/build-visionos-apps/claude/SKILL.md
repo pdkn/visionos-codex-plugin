@@ -59,6 +59,7 @@ This plugin provides skills, agents, and commands for building visionOS 26 appli
 | `/plan` | Break a spec into ordered, verifiable tasks |
 | `/review` | Code review across spatial, RealityKit, Swift, and quality axes |
 | `/ship` | Pre-launch checklist for TestFlight and App Store readiness |
+| `/code-simplify` | Simplify visionOS code without changing behaviour |
 
 ## Typical Workflow Sequence
 

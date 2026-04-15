@@ -58,6 +58,7 @@ If XcodeBuildMCP is not available, fall back to direct `xcodebuild` and `simctl`
 - `/plan` - break a spec into ordered tasks
 - `/review` - multi-axis code review
 - `/ship` - pre-launch checklist
+- `/code-simplify` - simplify code without changing behaviour
 
 ## visionOS 26 Key Notes
 
