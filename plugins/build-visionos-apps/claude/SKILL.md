@@ -34,6 +34,7 @@ This plugin provides skills, agents, and commands for building visionOS 26 appli
 
 | Skill | Use When |
 |-------|----------|
+| [build-run-debug](skills/build-run-debug/SKILL.md) | Building, running, and debugging visionOS apps with XcodeBuildMCP or shell tools |
 | [spec-driven-spatial](skills/spec-driven-spatial/SKILL.md) | Starting a new feature - write a spec before writing code |
 | [incremental-build](skills/incremental-build/SKILL.md) | Implementing features in thin vertical slices, one component at a time |
 | [debugging-triage](skills/debugging-triage/SKILL.md) | Systematic root-cause debugging for visionOS runtime issues |
@@ -52,7 +53,8 @@ This plugin provides skills, agents, and commands for building visionOS 26 appli
 
 | Command | Purpose |
 |---------|---------|
-| `/build-and-run-visionos-app` | Build and launch on Apple Vision Pro simulator |
+| `/build` | Build, run, and debug on Apple Vision Pro simulator |
+| `/build-and-run-visionos-app` | Build and launch on Apple Vision Pro simulator (detailed) |
 | `/fix-visionos-capability-error` | Diagnose and fix capability, privacy, or signing errors |
 | `/test-visionos-app` | Run tests with failure classification |
 | `/spec` | Start a feature specification (no code until approved) |

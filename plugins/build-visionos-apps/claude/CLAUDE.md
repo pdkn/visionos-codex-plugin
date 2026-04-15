@@ -31,6 +31,7 @@ If XcodeBuildMCP is not available, fall back to direct `xcodebuild` and `simctl`
 
 ### Engineering Workflow Skills (in `skills/`, claude-local)
 
+- **build-run-debug** - XcodeBuildMCP and shell-based build, run, debug workflows
 - **spec-driven-spatial** - write a spec before writing code, gate on scene model decision
 - **incremental-build** - thin vertical slices, one component/system at a time
 - **debugging-triage** - five-step triage: reproduce, classify, isolate, fix, test
@@ -51,7 +52,8 @@ If XcodeBuildMCP is not available, fall back to direct `xcodebuild` and `simctl`
 
 ## Commands Reference
 
-- `/build-and-run-visionos-app` - build and launch on simulator
+- `/build` - build, run, and debug on simulator
+- `/build-and-run-visionos-app` - build and launch (detailed variant)
 - `/fix-visionos-capability-error` - diagnose signing/capability errors
 - `/test-visionos-app` - run tests with failure classification
 - `/spec` - start a feature specification
